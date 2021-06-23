@@ -1,1 +1,1 @@
-# darkmode-switch
+# A bootstrap based darkmode switch
