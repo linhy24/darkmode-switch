@@ -5,6 +5,13 @@ svg {
     color:#303335
 }
 
+.nav > li > a.active,
+.nav>li>a:hover,
+.nav>li>a:focus {
+	font-weight: bold;
+	border-radius: 0.75em;
+}
+
 .nav-pills > li > a {
 	margin-top: 6px;
 }
