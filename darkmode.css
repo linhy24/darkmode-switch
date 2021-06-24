@@ -26,10 +26,6 @@
 		border-color: #b9b7b7;
 	}
 
-	.navbar {
-		background-color: #1f2830;
-	}
-
 	.nav-pills > li > a.active {
 		background-color: #39574a !important;
 	}
