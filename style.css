@@ -1,0 +1,47 @@
+/* properties of the navigation bar */
+svg {
+	width:20px;
+	height:20px;
+    color:#303335
+}
+
+.nav-pills > li > a {
+	margin-top: 6px;
+}
+
+.dropdown li a{
+	color:black !important;
+}
+
+.dropdown ul {
+	border-radius:0.75em;
+}
+
+.dropdown .dropdown-menu {
+	margin-top: 7px;
+}
+
+.dropdown .form-check {
+	margin-top: 1px;
+	margin-left: 1px;
+	text-align: center;
+}
+
+.dropdown input:checked {
+	background-color: #4c7da6 !important;
+}
+
+/* property of the content area */
+.container {
+	margin-top: 30px;
+}
+
+nav .container {
+	margin-top: 0;
+	height:60px;
+	font-size: 20px;
+}
+ 
+.form-check {
+	margin-top: 6px;
+}

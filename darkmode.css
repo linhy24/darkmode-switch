@@ -17,6 +17,10 @@
 		color:rgb(180, 178, 178);
 	}
 
+	svg {
+		color:#dad8d8;
+	}
+	
 	.profile {
 		color: rgb(128, 199, 243);
 		border-color: #b9b7b7;
