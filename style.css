@@ -1,5 +1,6 @@
 /* properties of the navigation bar */
 svg {
+	margin-top: 8px;
 	width:20px;
 	height:20px;
     color:#303335
@@ -10,6 +11,10 @@ svg {
 .nav>li>a:focus {
 	font-weight: bold;
 	border-radius: 0.75em;
+}
+
+.nav > li > a.active {
+	background-color: #4c7da6 !important;
 }
 
 .nav-pills > li > a {
