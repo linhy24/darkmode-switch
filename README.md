@@ -1,1 +1,1 @@
-# A bootstrap based darkmode switch controller
+# Darkmode switch
