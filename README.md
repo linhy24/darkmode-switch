@@ -4,8 +4,9 @@
 🌗
 Make your webpage adapt to your system theme preference, also provide a toggle to opt out.
 
-- The main goal is to make your webpage auto adjust its theme
+- The main goal is to make your webpage auto adjust its theme.
 - Opt out from following system theme preference to adopt light theme.
+- Use LocalStorage to store user preference.
 
 ## Setup
 Make sure you include Bootstrap in your code.
