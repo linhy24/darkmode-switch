@@ -1,7 +1,7 @@
 [![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/linhy24/darkmode-switch/main/LICENSE)
 
 # Darkmode switch
-## 🌗
+🌗
 Make your webpage adapt to your system theme preference, also provide a toggle to opt out.
 
 - The main goal is to make your webpage auto adjust its theme
