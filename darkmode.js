@@ -5,20 +5,20 @@
 // disale the darkmode CSS file based on the attribute stored in localStorage
 if (localStorage.getItem("follow") == null) { 
     localStorage.setItem("follow", true)
-    document.getElementById("darkSwitch").checked = true
+    document.getElementById("toggle").checked = true
 } else {
     if (localStorage.getItem("follow") == "true") {
-        document.getElementById("darkSwitch").checked = true
+        document.getElementById("toggle").checked = true
         document.querySelector('link[title="dark"]').disabled = false
     } else if (localStorage.getItem("follow") == "false") {
-        document.getElementById("darkSwitch").checked = false
+        document.getElementById("toggle").checked = false
         document.querySelector('link[title="dark"]').disabled = true
     }
 }
 
 // initialize the theme indicator
 // if user chooses to not follow system theme, make light theme default
-if (document.getElementById("darkSwitch").checked == true) {
+if (document.getElementById("toggle").checked == true) {
     if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
         document.getElementById("theme").innerHTML =
             `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moon" viewBox="0 0 16 16">
@@ -41,7 +41,7 @@ if (document.getElementById("darkSwitch").checked == true) {
 window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
 
     if (e.matches == true) {
-        var status = document.getElementById("darkSwitch")
+        var status = document.getElementById("toggle")
         if (status.checked == true) {
             document.getElementById("theme").innerHTML =
             `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moon" viewBox="0 0 16 16">
@@ -62,7 +62,7 @@ window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e =
 });
 
 // An EventListener for manual switch of theme preference
-var e = document.getElementById("darkSwitch");
+var e = document.getElementById("toggle");
 e.addEventListener("change", function() {
     if (e.checked == true) {
         document.querySelector('link[title="dark"]').disabled = false;
