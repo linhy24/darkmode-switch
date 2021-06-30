@@ -1,6 +1,6 @@
 @media (prefers-color-scheme: dark) {
 	body {
-	  background: #2d373f;
+	  background: #191c1f;
 	  color:#dad8d8;
 	}
 
@@ -27,7 +27,7 @@
 	}
 
 	.nav-pills > li > a.active {
-		background-color: #39574a !important;
+		background-color: #516269 !important;
 	}
 
 	.view {
