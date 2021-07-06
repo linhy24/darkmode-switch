@@ -57,3 +57,13 @@ nav .container {
 .form-check {
 	margin-top: 6px;
 }
+
+.btn {
+	height: 50px;
+	border-radius: 0.75em;
+	font-size: 20px;
+}
+
+.btn:hover {
+	font-weight: bold;
+}
