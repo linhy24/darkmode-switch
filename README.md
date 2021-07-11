@@ -2,7 +2,7 @@
 
 # Darkmode switch
 🌗
-Make your webpage adapt to your system theme preference, also provide a toggle to opt out.
+Make your webpage adapt to your system theme preference and manually adjustable through a toggle.
 
 - The main goal is to make your webpage auto adjust its theme.
 - Opt out from following system theme preference to adopt light theme.
