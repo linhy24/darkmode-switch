@@ -11,7 +11,7 @@ Make your webpage adapt to your system theme preference and manually adjustable 
 ## Setup
 Make sure you include Bootstrap in your code.
 
-Code for adding toggle (Bootstrap 5.0+):
+- Code for adding a toggle (Bootstrap 5.0+):
 ```html
 <div class="form-check form-switch">
     <label class="custom-control-label" for="toggle">Follow System</label>
@@ -19,12 +19,12 @@ Code for adding toggle (Bootstrap 5.0+):
 </div>
 ```
 
-Load darkmode CSS file:
+- Load darkmode CSS file:
 ```html
 <link title="dark" rel="stylesheet" href="./darkmode.css" type="text/css">
 ```
 
-Load JavaScript at the bottom of your body code:
+- Load JavaScript file:
 ```html
 <script src="./darkmode.js"></script>
 ```
